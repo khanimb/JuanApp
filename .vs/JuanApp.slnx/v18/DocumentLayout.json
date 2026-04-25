@@ -3,27 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Xanim\\Desktop\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260425092326_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260425092326_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260425091515_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260425091515_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260424132856_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260424132856_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\configurations\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\configurations\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\juanappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\juanappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khanimshb-acf205\\AppData\\Local\\Temp\\ejdh5rtt..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 89,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,76 +33,47 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\appsettings.json",
-              "RelativeDocumentMoniker": "JuanApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\appsettings.json",
-              "RelativeToolTip": "JuanApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-25T09:27:43.748Z",
+              "Title": "20260425092326_mig3.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
+              "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T09:45:33.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20260424132856_mig2.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
               "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
               "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
               "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:27:43.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileName.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\FileName.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\Configurations\\FileName.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\FileName.cs",
-              "RelativeToolTip": "JuanApp\\Data\\Configurations\\FileName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:27:43.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ejdh5rtt..sql",
-              "DocumentMoniker": "C:\\Users\\khanimshb-acf205\\AppData\\Local\\Temp\\ejdh5rtt..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\khanimshb-acf205\\AppData\\Local\\Temp\\ejdh5rtt..sql",
-              "ToolTip": "C:\\Users\\khanimshb-acf205\\AppData\\Local\\Temp\\ejdh5rtt..sql",
-              "RelativeToolTip": "..\\..\\..\\khanimshb-acf205\\AppData\\Local\\Temp\\ejdh5rtt..sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-25T09:27:43.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JuanAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\JuanAppDbContext.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\JuanAppDbContext.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\JuanAppDbContext.cs",
-              "RelativeToolTip": "JuanApp\\Data\\JuanAppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:27:43.763Z"
+              "WhenOpened": "2026-04-25T09:45:30.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Models\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "JuanApp\\Models\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20260425091515_mig2.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
+              "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:27:43.766Z"
+              "WhenOpened": "2026-04-25T09:45:28.104Z",
+              "EditorCaption": ""
             }
           ]
         },
