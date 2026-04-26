@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JuanApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c257392a8d057bd1655e86c989d0aeca7803868f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d6ff2eb5e3e4c999e588829d7736f2c1cceaed")]
 [assembly: System.Reflection.AssemblyProductAttribute("JuanApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JuanApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

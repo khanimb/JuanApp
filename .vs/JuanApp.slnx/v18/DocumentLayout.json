@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Xanim\\Desktop\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260425092326_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260425092326_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260425091515_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260425091515_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\migrations\\20260424132856_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\migrations\\20260424132856_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\configurations\\basketitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\configurations\\basketitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +49,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 89,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 31,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,47 +66,138 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260425092326_mig3.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
-              "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260425092326_mig3.cs",
+              "DocumentIndex": 1,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Blog.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Blog.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Blog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:45:33.878Z",
+              "WhenOpened": "2026-04-26T18:32:52.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20260424132856_mig2.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
-              "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260424132856_mig2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:45:30.097Z",
+              "WhenOpened": "2026-04-26T18:31:58.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260425091515_mig2.cs",
-              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
-              "RelativeDocumentMoniker": "JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
-              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
-              "RelativeToolTip": "JuanApp\\Data\\Migrations\\20260425091515_mig2.cs",
+              "DocumentIndex": 3,
+              "Title": "BasketItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\BasketItemConfiguration.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Data\\Configurations\\BasketItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\BasketItemConfiguration.cs",
+              "RelativeToolTip": "JuanApp\\Data\\Configurations\\BasketItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:30:41.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketItem.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\BasketItem.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\BasketItem.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\BasketItem.cs",
+              "RelativeToolTip": "JuanApp\\Models\\BasketItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:29:02.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:26:20.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T09:45:28.104Z",
+              "WhenOpened": "2026-04-26T18:26:17.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:25:20.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:24:49.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:24:31.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:24:26.406Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 143,
+          "DockedWidth": 201,
           "SelectedChildIndex": -1,
           "Children": [
             {
