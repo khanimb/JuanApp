@@ -227,3 +227,4 @@ C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\refint\JuanApp.dll
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\JuanApp.pdb
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\JuanApp.genruntimeconfig.cache
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\ref\JuanApp.dll
+C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

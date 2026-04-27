@@ -17,5 +17,11 @@ namespace JuanApp.Data
         public DbSet<Subscribe> Subscribes { get; set; }
         public DbSet<Blog> Blogs { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(JuanAppDbContext).Assembly);
+        }
     }
+
 }

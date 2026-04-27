@@ -1,4 +1,4 @@
-using JuanApp.Data;
+﻿using JuanApp.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,8 +12,6 @@ builder.Services.AddDbContext<JuanAppDbContext>(options =>
 var app = builder.Build();
 
 app.UseRouting();
-
-app.UseStaticFiles();
 
 app.UseAuthorization();
 

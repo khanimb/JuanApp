@@ -1,4 +1,4 @@
-using JuanApp.Data;
+﻿using JuanApp.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

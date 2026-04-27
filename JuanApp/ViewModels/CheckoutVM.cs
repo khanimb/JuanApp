@@ -1,4 +1,4 @@
-﻿namespace JuanApp.ViewModel
+﻿namespace JuanApp.ViewModels
 {
     public class CheckoutVM
     {
