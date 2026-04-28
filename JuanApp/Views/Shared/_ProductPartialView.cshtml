@@ -1,0 +1,61 @@
+﻿@model List<Product>
+@foreach (var product in Model)
+{
+    <div class="slide-item">
+        <div class="pro-item-small mt-30">
+            <div class="product-thumb">
+                <a asp-controller="Shop"
+                   asp-action="Detail"
+                   asp-route-id="@product.Id">
+                    <img src="@product.ImageUrl" alt="@product.Name" />
+                </a>
+            </div>
+            <div class="pro-small-content">
+                <h6 class="product-name">
+                    <a asp-controller="Shop"
+                       asp-action="Detail"
+                       asp-route-id="@product.Id">
+                        @product.Name
+                    </a>
+                </h6>
+                <div class="price-box">
+                    <span class="price-regular">
+                        $@product.Price.ToString("0.00")
+                    </span>
+                    @if (product.DiscountPrice > 0)
+                    {
+                        <span class="price-old">
+                            <del>$@product.DiscountPrice.ToString("0.00")</del>
+                        </span>
+                    }
+                </div>
+                <div class="ratings">
+                    <span><i class="ion-android-star"></i></span>
+                    <span><i class="ion-android-star"></i></span>
+                    <span><i class="ion-android-star"></i></span>
+                    <span><i class="ion-android-star"></i></span>
+                    <span><i class="ion-android-star"></i></span>
+                </div>
+                <div class="product-link-2">
+                    <a href="#" data-toggle="tooltip" title="Wishlist">
+                        <i class="ion-android-favorite-outline"></i>
+                    </a>
+                    <a asp-controller="Basket"
+                       asp-action="Add"
+                       asp-route-productId="@product.Id"
+                       data-toggle="tooltip" title="Add To Cart">
+                        <i class="ion-bag"></i>
+                    </a>
+                    <a asp-controller="Shop"
+                       asp-action="Detail"
+                       asp-route-id="@product.Id"
+                       data-toggle="modal" data-target="#quick_view">
+                        <span data-toggle="tooltip" title="Quick View">
+                            <i class="ion-ios-eye-outline"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

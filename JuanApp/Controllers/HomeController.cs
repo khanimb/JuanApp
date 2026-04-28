@@ -1,18 +1,40 @@
-using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
-using JuanApp.Models;
-using JuanApp.ViewModel;
+using JuanApp.Data;
+using JuanApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace JuanApp.Controllers
 {
     public class HomeController : Controller
     {
-        HomeVm homeVm = new HomeVm();
-        public IActionResult Index()
+        private readonly JuanAppDbContext _context;
+
+        public HomeController(JuanAppDbContext context)
         {
-            return View();
+            _context = context;
         }
 
+        public IActionResult Index()
+        {
+            HomeVm homeVm = new HomeVm()
+            {
+                Sliders = _context.Sliders.ToList(),
+                OurProduct = _context.Products
+                    .Include(x => x.Category)
+                    .Where(x => !x.IsDeleted)
+                    .Take(5)
+                    .ToList(),
+                NewProducts = _context.Products
+                    .Include(x => x.Category)
+                    .Where(x => !x.IsDeleted)
+                    .OrderByDescending(x => x.Id)
+                    .Take(6)
+                    .ToList(),
+                Categories = _context.Categories.ToList(),
+                Blogs = _context.Blogs.ToList()
+            };
+
+            return View(homeVm);
+        }
     }
 }
