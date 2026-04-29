@@ -1,10 +1,13 @@
 using JuanApp.Data;
+using JuanApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<LayoutService>();
 
 builder.Services.AddDbContext<JuanAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -18,6 +21,13 @@ app.UseStaticFiles();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+app.MapAreaControllerRoute(
+    name: "manage",
+    areaName: "Manage",
+    pattern: "manage/{controller=Dashboard}/{action=Index}/{id?}"
+);
+
 
 app.MapControllerRoute(
     name: "default",

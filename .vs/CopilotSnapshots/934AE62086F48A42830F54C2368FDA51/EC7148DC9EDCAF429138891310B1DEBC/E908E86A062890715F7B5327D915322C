@@ -1,0 +1,45 @@
+﻿using JuanApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Data
+{
+    public class JuanAppDbContext : IdentityDbContext<AppUser>
+    {
+        public JuanAppDbContext(DbContextOptions<JuanAppDbContext> options)
+            : base(options) { }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(JuanAppDbContext).Assembly);
+
+            modelBuilder.Entity<Slider>().HasData(
+                new Slider 
+                { 
+                    Id = 1, 
+                    Title = "New Collection", 
+                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    Image = "assets/img/slider/slider-1.jpg", 
+                    Offer = "Top Selling!", 
+                    BtnText = "SHOP NOW" 
+                },
+                new Slider 
+                { 
+                    Id = 2, 
+                    Title = "Top Collection", 
+                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    Image = "assets/img/slider/slider-2.jpg", 
+                    Offer = "Best Selling!", 
+                    BtnText = "SHOP NOW" 
+                }
+            );
+        }
+    }
+
+}

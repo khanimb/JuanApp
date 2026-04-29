@@ -1,0 +1,22 @@
+﻿using JuanApp.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Controllers
+{
+    public class ProductController(JuanAppDbContext _context) : Controller
+    {
+        public Task<IActionResult> Index()
+        {
+            var product = _context.Products
+            .Include(x => x.Category)
+            .FirstOrDefault();
+            return View();
+        }
+        public IActionResult ProductModal(Guid Id)
+        {
+            var product = _context.Products.FirstOrDefault(x => x.Id == Id);
+            return PartialView("_ProductModalPartial", product);
+        }
+    }
+}

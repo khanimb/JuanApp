@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace JuanApp.Controllers
+{
+    public class BlogController : Controller
+    {
+        public IActionResult Index(Guid Id)
+        {
+            var blog = _context.Blogs.FirstOrDefault(x => x.Id == Id);
+            return View();
+        }
+    }
+}

@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "Login-Register";
+}
+
+<!-- breadcrumb area start -->
+<div class="breadcrumb-area bg-img" data-bg="~/assets/img/banner/breadcrumb-banner.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb-wrap text-center">
+                    <nav aria-label="breadcrumb">
+                        <h1 class="breadcrumb-title">Login-Register</h1>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                Login-Register
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb area end -->
+<!-- login register wrapper start -->
+<div class="login-register-wrapper section-padding">
+    <div class="container">
+        <div class="member-area-from-wrap">
+            <div class="row">
+
+                <!-- Login -->
+                <div class="col-lg-6">
+                    <div class="login-reg-form-wrap">
+                        <h2>Sign In</h2>
+                        <form asp-controller="Account" asp-action="Login" method="post">
+                            @Html.AntiForgeryToken()
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="single-input-item">
+                                <input type="email" name="Email"
+                                       placeholder="Email" required />
+                            </div>
+                            <div class="single-input-item">
+                                <input type="password" name="Password"
+                                       placeholder="Enter your Password" required />
+                            </div>
+                            <div class="single-input-item">
+                                <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
+                                    <div class="remember-meta">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" name="RememberMe"
+                                                   class="custom-control-input"
+                                                   id="rememberMe" />
+                                            <label class="custom-control-label" for="rememberMe">
+                                                Remember Me
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <a asp-controller="Account"
+                                       asp-action="ForgotPassword"
+                                       class="forget-pwd">Forget Password?</a>
+                                </div>
+                            </div>
+                            <div class="single-input-item">
+                                <button type="submit" class="btn">Login</button>
+                            </div>
+                            <div class="single-input-item mt-15">
+                                <a asp-controller="Account"
+                                   asp-action="GoogleLogin"
+                                   class="btn btn-danger w-100">
+                                    <i class="fa fa-google"></i> Login with Google
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Login End -->
+                <!-- Register -->
+                <div class="col-lg-6">
+                    <div class="login-reg-form-wrap signup-form">
+                        <h2>Signup Form</h2>
+                        <form asp-controller="Account" asp-action="Register" method="post">
+                            @Html.AntiForgeryToken()
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="single-input-item">
+                                <input type="text" name="FullName"
+                                       placeholder="Full Name" required />
+                            </div>
+                            <div class="single-input-item">
+                                <input type="email" name="Email"
+                                       placeholder="Enter your Email" required />
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="single-input-item">
+                                        <input type="password" name="Password"
+                                               placeholder="Enter your Password" required />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-input-item">
+                                        <input type="password" name="ConfirmPassword"
+                                               placeholder="Repeat your Password" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-input-item">
+                                <button type="submit" class="btn">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Register End -->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- login register wrapper end -->
+

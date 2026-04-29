@@ -1,0 +1,7 @@
+﻿namespace JuanApp.ViewModels
+{
+    public class BlogVm
+    {
+
+    }
+}

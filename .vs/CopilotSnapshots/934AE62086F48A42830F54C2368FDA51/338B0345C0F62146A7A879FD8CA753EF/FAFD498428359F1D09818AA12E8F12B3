@@ -1,0 +1,33 @@
+﻿using JuanApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Data
+{
+    public class JuanAppDbContext : IdentityDbContext<AppUser>
+    {
+        public JuanAppDbContext(DbContextOptions<JuanAppDbContext> options)
+            : base(options) { }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(JuanAppDbContext).Assembly);
+
+            modelBuilder.Entity<Setting>().HasData(
+                new Setting { Key = "Email", Value = "support@juanapp.com" },
+                new Setting { Key = "Phone", Value = "+1 (234) 567-890" },
+                new Setting { Key = "Address", Value = "123 Shoe Street, NY 10001, USA" },
+                new Setting { Key = "SupportPhone", Value = "+1 (800) 123-4567" },
+                new Setting { Key = "SupportEmail", Value = "help@juanapp.com" },
+                new Setting { Key = "LogoUrl", Value = "/assets/img/logo/logo.png" }
+            );
+        }
+    }
+
+}

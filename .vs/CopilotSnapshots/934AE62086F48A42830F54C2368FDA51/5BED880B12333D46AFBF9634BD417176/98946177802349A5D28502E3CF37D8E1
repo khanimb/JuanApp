@@ -1,0 +1,25 @@
+﻿using JuanApp.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Areas.Manage.Controllers;
+[Area("Manage")]
+    public class DashboardController : Controller
+    {
+        private readonly JuanAppDbContext _context;
+
+        public DashboardController(JuanAppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .OrderByDescending(p => p.Id)
+                .ToListAsync();
+
+            return View(products);
+        }
+    }

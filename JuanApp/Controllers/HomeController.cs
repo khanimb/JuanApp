@@ -31,7 +31,14 @@ namespace JuanApp.Controllers
                     .Take(6)
                     .ToList(),
                 Categories = _context.Categories.ToList(),
-                Blogs = _context.Blogs.ToList()
+                Blogs = _context.Blogs.Select(x => new BlogVm 
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    ImageUrl = x.ImageUrl,
+                    Author = x.Author,
+                    CreatedAt = x.CreatedAt
+                }).ToList()
             };
 
             return View(homeVm);

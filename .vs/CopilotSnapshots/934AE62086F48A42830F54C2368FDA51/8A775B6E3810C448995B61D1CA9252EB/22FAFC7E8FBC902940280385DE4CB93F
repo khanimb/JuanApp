@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace JuanApp.Controllers
+{
+    public class ShopController : Controller
+    {
+        public IActionResult Index()
+        {
+            var products = _context.Products.Where(x => !x.IsDeleted).ToList();
+            return View();
+        }
+    }
+}
