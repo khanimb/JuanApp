@@ -121,3 +121,34 @@
 		</div>
 	</div>
 </div>
+@section Scripts {
+	<script>
+			$('.delete-Product').click(function (e) {
+				e.preventDefault();
+						Swal.fire({
+		  title: "Do you want to save the changes?",
+		  showCancelButton: true,
+		  confirmButtonText: "Save",
+		}).then((result) => {
+		  /* Read more about isConfirmed, isDenied below */
+		  if (result.isConfirmed) 
+		  {
+			  //product/delete/id
+			  var url= $(this).attr("href");
+			  $ajax({
+				  url: url;
+				  type: "get";
+				  success: function({
+					  Swal.fire("Author is deleted!", "", "success"). then (() => location.reload());
+				  });
+				  error: function({
+					  Swal.fire("Error is occured!", "", "error");
+				  });
+			  })
+		  };
+		  else if (result.isDenied) Swal.fire("Changes are not saved", "", "info");
+		});
+			});
+		;
+	</script>
+}

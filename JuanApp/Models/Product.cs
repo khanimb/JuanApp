@@ -4,8 +4,8 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public double Price { get; set; }
-        public double DiscountPrice { get; set; }
+        public decimal Price { get; set; }
+        public decimal DiscountPrice { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public bool IsDeleted { get; set; } = false;
@@ -14,5 +14,7 @@
 
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+        public ICollection<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
+        
     }
 }

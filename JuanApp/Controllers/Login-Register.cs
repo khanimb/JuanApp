@@ -7,6 +7,7 @@ namespace JuanApp.Controllers
     {
         public IActionResult Index()
         {
+            var userId = HttpContext.Session.GetInt32("UserId");
             return View();
         }
     }

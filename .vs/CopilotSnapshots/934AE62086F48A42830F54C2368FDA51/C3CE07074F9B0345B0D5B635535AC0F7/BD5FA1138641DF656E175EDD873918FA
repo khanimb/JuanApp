@@ -1,0 +1,46 @@
+﻿using JuanApp.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Controllers;
+    [Area("Manage")]
+    public class BlogController : Controller
+    {
+        private readonly JuanAppDbContext _context;
+
+        public BlogController(JuanAppDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index(int Id)
+    {
+        var blog = _context.Blogs
+            .Include(b => GetRelatedBlogs(b))
+            .ThenInclude(br => br.RelatedBlog)
+            .FirstOrDefault(b => b.Id == id);
+
+        if (blog == null)
+            return NotFound();
+
+        return View(blog);
+    }
+
+    private static object GetRelatedBlogs(Models.Blog b)
+    {
+        return b.RelatedBlogs;
+    }
+
+    public IActionResult BlogModal(Guid id)
+    {
+        var blog = _context.Blogs
+            .Include(b => b.Blog)
+            .ThenInclude(br => br.RelatedBlog)
+            .FirstOrDefault(b => b.Id == id);
+
+        if (blog == null)
+            return NotFound();
+
+        return PartialView("_BlogModalPartialView", blog);
+    }
+    }

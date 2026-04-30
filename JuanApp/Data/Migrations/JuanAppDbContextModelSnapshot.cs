@@ -104,16 +104,26 @@ namespace JuanApp.Data.Migrations
                     b.Property<string>("Author")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("BlogId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
 
                     b.ToTable("Blogs");
                 });
@@ -143,21 +153,21 @@ namespace JuanApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 210, DateTimeKind.Local).AddTicks(1896),
+                            CreatedAt = new DateTime(2026, 4, 30, 22, 7, 35, 575, DateTimeKind.Local).AddTicks(7472),
                             IsDeleted = false,
                             Name = "Men Shoes"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(1028),
+                            CreatedAt = new DateTime(2026, 4, 30, 22, 7, 35, 576, DateTimeKind.Local).AddTicks(6528),
                             IsDeleted = false,
                             Name = "Women Shoes"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(1041),
+                            CreatedAt = new DateTime(2026, 4, 30, 22, 7, 35, 576, DateTimeKind.Local).AddTicks(6541),
                             IsDeleted = false,
                             Name = "Kids Shoes"
                         });
@@ -180,8 +190,8 @@ namespace JuanApp.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("DiscountPrice")
-                        .HasColumnType("float");
+                    b.Property<decimal>("DiscountPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
@@ -193,10 +203,12 @@ namespace JuanApp.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -209,67 +221,88 @@ namespace JuanApp.Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(4541),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Some brief description here",
-                            DiscountPrice = 70.0,
+                            DiscountPrice = 70.00m,
                             ImageUrl = "/assets/img/product/product-1.jpg",
                             IsDeleted = false,
                             IsNew = true,
                             Name = "Leather Mens Slipper",
-                            Price = 80.0
+                            Price = 80.00m
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(4853),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Some brief description here",
-                            DiscountPrice = 70.0,
+                            DiscountPrice = 70.00m,
                             ImageUrl = "/assets/img/product/product-2.jpg",
                             IsDeleted = false,
                             IsNew = true,
                             Name = "Quickiin Mens shoes",
-                            Price = 80.0
+                            Price = 80.00m
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 2,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(4855),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Some brief description here",
-                            DiscountPrice = 70.0,
+                            DiscountPrice = 70.00m,
                             ImageUrl = "/assets/img/product/product-3.jpg",
                             IsDeleted = false,
                             IsNew = true,
                             Name = "Rexpo Womens shoes",
-                            Price = 80.0
+                            Price = 80.00m
                         },
                         new
                         {
                             Id = 4,
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(4857),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Some brief description here",
-                            DiscountPrice = 110.0,
+                            DiscountPrice = 110.00m,
                             ImageUrl = "/assets/img/product/product-4.jpg",
                             IsDeleted = false,
                             IsNew = true,
                             Name = "Air Force 1",
-                            Price = 120.0
+                            Price = 120.00m
                         },
                         new
                         {
                             Id = 5,
                             CategoryId = 1,
-                            CreatedAt = new DateTime(2026, 4, 29, 20, 57, 17, 211, DateTimeKind.Local).AddTicks(4859),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Some brief description here",
-                            DiscountPrice = 130.0,
+                            DiscountPrice = 130.00m,
                             ImageUrl = "/assets/img/product/product-5.jpg",
                             IsDeleted = false,
                             IsNew = true,
                             Name = "Air Max",
-                            Price = 150.0
+                            Price = 150.00m
                         });
+                });
+
+            modelBuilder.Entity("JuanApp.Models.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductImage");
                 });
 
             modelBuilder.Entity("JuanApp.Models.Setting", b =>
@@ -466,6 +499,13 @@ namespace JuanApp.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Blog", b =>
+                {
+                    b.HasOne("JuanApp.Models.Blog", null)
+                        .WithMany("RelatedBlogs")
+                        .HasForeignKey("BlogId");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Product", b =>
                 {
                     b.HasOne("JuanApp.Models.Category", "Category")
@@ -475,6 +515,17 @@ namespace JuanApp.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("JuanApp.Models.ProductImage", b =>
+                {
+                    b.HasOne("JuanApp.Models.Product", "Product")
+                        .WithMany("ProductImages")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -528,9 +579,19 @@ namespace JuanApp.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("JuanApp.Models.Blog", b =>
+                {
+                    b.Navigation("RelatedBlogs");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("JuanApp.Models.Product", b =>
+                {
+                    b.Navigation("ProductImages");
                 });
 #pragma warning restore 612, 618
         }

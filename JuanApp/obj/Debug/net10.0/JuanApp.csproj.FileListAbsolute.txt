@@ -227,7 +227,6 @@ C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\refint\JuanApp.dll
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\JuanApp.pdb
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\JuanApp.genruntimeconfig.cache
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\ref\JuanApp.dll
-C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\6t4f3hmnev-{0}-6upcwyat5n-6upcwyat5n.gz
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\n9lemqtkll-{0}-7zehfirhgr-7zehfirhgr.gz
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\g8nne5s1sa-{0}-hk206vu687-hk206vu687.gz
@@ -826,3 +825,5 @@ C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\f6cuix8kue-{
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\i06yqhq0el-{0}-7svd8cr7ho-7svd8cr7ho.gz
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\ylmgxkltsb-{0}-62xh5dtbab-62xh5dtbab.gz
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\as6xjiec44-{0}-w3k4bz554q-w3k4bz554q.gz
+C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\compressed\8lv86l1kyj-{0}-cpe7kbylkw-cpe7kbylkw.gz
+C:\Users\Xanim\Desktop\JuanApp\JuanApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

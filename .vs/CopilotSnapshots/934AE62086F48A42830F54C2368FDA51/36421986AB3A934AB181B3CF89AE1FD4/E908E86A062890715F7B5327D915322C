@@ -1,0 +1,115 @@
+﻿using JuanApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Data
+{
+    public class JuanAppDbContext : IdentityDbContext<AppUser>
+    {
+        public JuanAppDbContext(DbContextOptions<JuanAppDbContext> options)
+            : base(options) { }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(JuanAppDbContext).Assembly);
+
+            modelBuilder.Entity<Slider>().HasData(
+                new Slider 
+                { 
+                    Id = 1, 
+                    Title = "New Collection", 
+                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    Image = "assets/img/slider/slider-1.jpg", 
+                    Offer = "Top Selling!", 
+                    BtnText = "SHOP NOW" 
+                },
+                new Slider 
+                { 
+                    Id = 2, 
+                    Title = "Top Collection", 
+                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    Image = "assets/img/slider/slider-2.jpg", 
+                    Offer = "Best Selling!", 
+                    BtnText = "SHOP NOW" 
+                }
+            );
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1, Name = "Men Shoes" },
+                new Category { Id = 2, Name = "Women Shoes" },
+                new Category { Id = 3, Name = "Kids Shoes" }
+            );
+
+            // Adding default products
+            modelBuilder.Entity<Product>().HasData(
+                new Product 
+                { 
+                    Id = 1, 
+                    Name = "Leather Mens Slipper", 
+                    Price = 80.00, 
+                    DiscountPrice = 70.00, 
+                    Description = "Some brief description here", 
+                    ImageUrl = "/assets/img/product/product-1.jpg", 
+                    CategoryId = 1,
+                    IsNew = true,
+                    CreatedAt = new DateTime(2024, 1, 1)
+                },
+                new Product 
+                { 
+                    Id = 2, 
+                    Name = "Quickiin Mens shoes", 
+                    Price = 80.00, 
+                    DiscountPrice = 70.00, 
+                    Description = "Some brief description here", 
+                    ImageUrl = "/assets/img/product/product-2.jpg", 
+                    CategoryId = 1,
+                    IsNew = true,
+                    CreatedAt = new DateTime(2024, 1, 1)
+                },
+                new Product 
+                { 
+                    Id = 3, 
+                    Name = "Rexpo Womens shoes", 
+                    Price = 80.00, 
+                    DiscountPrice = 70.00, 
+                    Description = "Some brief description here", 
+                    ImageUrl = "/assets/img/product/product-3.jpg", 
+                    CategoryId = 2,
+                    IsNew = true,
+                    CreatedAt = new DateTime(2024, 1, 1)
+                },
+                new Product 
+                { 
+                    Id = 4, 
+                    Name = "Air Force 1", 
+                    Price = 120.00, 
+                    DiscountPrice = 110.00, 
+                    Description = "Some brief description here", 
+                    ImageUrl = "/assets/img/product/product-4.jpg", 
+                    CategoryId = 1,
+                    IsNew = true,
+                    CreatedAt = new DateTime(2024, 1, 1)
+                },
+                new Product 
+                { 
+                    Id = 5, 
+                    Name = "Air Max", 
+                    Price = 150.00, 
+                    DiscountPrice = 130.00, 
+                    Description = "Some brief description here", 
+                    ImageUrl = "/assets/img/product/product-5.jpg", 
+                    CategoryId = 1,
+                    IsNew = true,
+                    CreatedAt = new DateTime(2024, 1, 1)
+                }
+            );
+
+        }
+    }
+
+}

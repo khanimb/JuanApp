@@ -1,0 +1,10 @@
+﻿// JuanApp Custom Main JS
+console.log("main.js loaded explicitly for custom behaviors on top of the original theme files.");
+
+$(document).ready(function() {
+    // Example: Highlight quick view functionality hook
+    $('a[data-target="#quick_view"]').on('click', function(e) {
+        // e.preventDefault();
+        console.log("Quick view modal requested for Product ID:", $(this).attr('asp-route-id') || $(this).data('id') || "Unknown");
+    });
+});

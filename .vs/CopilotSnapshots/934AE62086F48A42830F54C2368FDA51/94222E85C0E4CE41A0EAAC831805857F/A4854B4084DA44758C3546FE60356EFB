@@ -1,0 +1,43 @@
+﻿using JuanApp.Data;
+using JuanApp.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace JuanApp.Controllers
+{
+    public class ProductController(JuanAppDbContext _context) : Controller
+    {
+        public IActionResult Index()
+        {
+            var product = _context.Products
+            .Include(x => x.Category)
+            .FirstOrDefault();
+            if (product == null)
+                return NotFound();
+
+            var related = _context.Products
+                .Include(p => p.ProductImages)
+                .Where(p => p.Id != product.Id && p.IsNew == product.IsNew)
+                .Take(4)
+                .ToList();
+
+            ProductVm productVm = new()
+            {
+                Product = product,
+                RelatedProducts = related
+            };
+
+
+            return View();
+        }
+        public IActionResult ProductModal(int Id)
+        {
+            var product = _context.Products
+                .Include(p => p.ProductImage)
+                .FirstOrDefault(x => x.Id == Id);
+            if (product == null)
+                return NotFound();
+            return PartialView("_ProductModalPartial", product);
+        }
+    }
+}
