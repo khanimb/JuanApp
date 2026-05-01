@@ -880,6 +880,7 @@ C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\fonts\fontawesome-webfont3
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\fonts\ionicons28b5.svg
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\img\favicon.ico
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\active.js
+C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\main.js
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\modernizr-2.8.3.min.js
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\plugins.js
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\vendor.js
@@ -1481,4 +1482,3 @@ C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\manage\assets\vendors\typicons\LI
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\manage\assets\vendors\typicons\typicons.css
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\manage\assets\vendors\typicons\typicons.json
 C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\manage\assets\vendors\typicons\typicons.svg
-C:\Users\Xanim\Desktop\JuanApp\JuanApp\wwwroot\assets\js\main.js

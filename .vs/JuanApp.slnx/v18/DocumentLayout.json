@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Xanim\\Desktop\\JuanApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|c:\\users\\xanim\\desktop\\juanapp\\juanapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288DFF15-216D-9393-91B9-476BC66D4475}|JuanApp\\JuanApp.csproj|solutionrelative:juanapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 159,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\Login.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Controllers\\Login.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Controllers\\Login.cs",
+              "RelativeToolTip": "JuanApp\\Controllers\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:36:12.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\ViewModels\\LoginVm.cs",
+              "RelativeDocumentMoniker": "JuanApp\\ViewModels\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\ViewModels\\LoginVm.cs",
+              "RelativeToolTip": "JuanApp\\ViewModels\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:36:04.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\BlogConfiguration.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Data\\Configurations\\BlogConfiguration.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\BlogConfiguration.cs",
+              "RelativeToolTip": "JuanApp\\Data\\Configurations\\BlogConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:35:42.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Data\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "JuanApp\\Data\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:35:41.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "JuanApp\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\JuanApp\\JuanApp\\Models\\Slider.cs",
+              "RelativeToolTip": "JuanApp\\Models\\Slider.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T20:31:19.587Z",
+              "EditorCaption": ""
             }
           ]
         },
