@@ -74,6 +74,24 @@ namespace JuanApp.Areas.Manage.Controllers
                 return NotFound();
             }
             return View(product);
+
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Product product)
+        {
+            if (product.CategoryId == 0)
+            {
+                ModelState.AddModelError("CategoryId", "Zəhmət olmasa kateqoriya seçin.");
+            }
+            if (ModelState.IsValid)
+            {
+                _context.Products.Update(product);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewBag.Categories = _context.Categories.Where(c => !c.IsDeleted).ToList();
+            return View(product);
         }
     }
 }

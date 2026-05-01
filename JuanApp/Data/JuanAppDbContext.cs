@@ -24,19 +24,17 @@ namespace JuanApp.Data
                 { 
                     Id = 1, 
                     Title = "New Collection", 
-                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
-                    Image = "assets/img/slider/slider-1.jpg", 
-                    Offer = "Top Selling!", 
-                    BtnText = "SHOP NOW" 
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    ImageUrl = "assets/img/slider/slider-1.jpg", 
+                    ButtonText = "SHOP NOW" 
                 },
                 new Slider 
                 { 
                     Id = 2, 
                     Title = "Top Collection", 
-                    Desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
-                    Image = "assets/img/slider/slider-2.jpg", 
-                    Offer = "Best Selling!", 
-                    BtnText = "SHOP NOW" 
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", 
+                    ImageUrl = "assets/img/slider/slider-2.jpg", 
+                    ButtonText = "Best Selling!"
                 }
             );
             modelBuilder.Entity<Category>().HasData(
